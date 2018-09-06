@@ -1,0 +1,52 @@
+# IntelliJ project files
+.idea
+*.iml
+*.txt
+*.ipr
+*.iws
+out
+gen
+
+# Packaged files
+*.app
+*.apk
+*.zip
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.rar
+*.ipa
+
+# Mac
+.DS_Store
+/.idea/*
+
+# Java class files
+*.class
+
+# Gradle files
+.gradle/
+build/
+
+# Maven
+target
+
+#allure
+.allure
+allure-results
+
+# Log Files
+*.log
+
+# Credentials
+**/src/main/**/credentials.properties
+
+# Test output files
+**/test-output
+
+# Temp Files
+**/*.tmp
+
+**/mappings/*.json
+**/mock_server/src/main/resources/suite
